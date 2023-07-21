@@ -1,0 +1,152 @@
+.login,
+.login * {
+  box-sizing: border-box;
+}
+.login {
+  background: #ffde59;
+  width: 1442px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  border-radius: 40px;
+  position: absolute;
+  left: 0px;
+  top: 111px;
+  overflow: visible;
+}
+.rectangle-17 {
+  background: #fcd343;
+  border-radius: 60px;
+  width: 430px;
+  height: 65px;
+  position: absolute;
+  left: 116px;
+  top: 646px;
+}
+.e-mail {
+  color: #000000;
+  text-align: left;
+  font: 400 25px/70px "Archivo", sans-serif;
+  position: absolute;
+  left: 181px;
+  top: 374px;
+  width: 180px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-8 {
+  background: #d9d9d9;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 303px;
+  height: 46px;
+  position: absolute;
+  left: 163px;
+  top: 407px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle-9 {
+  border-radius: 30px;
+  position: absolute;
+  left: 163px;
+  top: 532px;
+  overflow: visible;
+}
+.login2 {
+  color: #000000;
+  text-align: left;
+  font: 400 50px/47px "Anton", sans-serif;
+  position: absolute;
+  left: 271px;
+  top: 233px;
+  width: 153px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.senha {
+  color: #000000;
+  text-align: left;
+  font: 400 25px/70px "Archivo", sans-serif;
+  position: absolute;
+  left: 181px;
+  top: 498px;
+  width: 180px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.entrar {
+    background-color: #fcd343;
+    border: none;
+    color: #000000;
+  text-align: left;
+  font: 400 28px/70px "Archivo", sans-serif;
+  position: relative;
+  text-decoration: none;
+  
+  right: 375px;
+  top: 646px; 
+  width: 131px;
+  height: 51px;
+}
+._1689256386431-1 {
+  width: 678px;
+  height: 818px;
+  position: absolute;
+  left: 736px;
+  top: 159px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-18 {
+  background: #fcb243;
+  border-radius: 60px;
+  width: 430px;
+  height: 65px;
+  position: absolute;
+  left: 116px;
+  top: 761px;
+}
+.cadastro {
+    background-color: #fcb243;
+    border: none;
+    
+    color: #000000;
+  text-align: left;
+  font: 400 28px/70px "Archivo", sans-serif;
+  position: relative;
+  text-decoration: none;
+  right: 390px;
+  top: 710px; 
+  width: 131px;
+  height: 51px;
+  
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-8 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px 0 0 0;
+  width: 818px;
+  height: 0px;
+  position: absolute;
+  left: 721.19px;
+  top: 159px;
+  transform-origin: 0 0;
+  transform: rotate(90.013deg) scale(1, 1);
+}
+
+
