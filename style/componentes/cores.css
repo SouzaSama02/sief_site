@@ -1,0 +1,12 @@
+:root {
+  --c1: #ffde59;
+  --c2: #f4f4f4;
+}
+
+.c1 {
+  color: #ffde59;
+}
+
+.c2 {
+  color: #f4f4f4;
+}

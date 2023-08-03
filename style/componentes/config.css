@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 5px;
+}
+
+dd {
+  margin: 0px;
+}

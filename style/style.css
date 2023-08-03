@@ -1,0 +1,8 @@
+@import url(conteudo/header.css);
+@import url(conteudo/conteudo-principal.css);
+
+/* Componentes */
+
+@import url(componentes/cores.css);
+@import url(componentes/recursos.css);
+@import url(componentes/config.css);

@@ -1,0 +1,37 @@
+.cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-style: italic;
+  color: var(--c1);
+  margin-bottom: 20px;
+  border-bottom: solid 3px var(--c1);
+}
+
+.lista-header {
+  display: flex;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.lista-header li {
+  background-color: var(--c2);
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.item-lista-header-02 {
+  background-color: var(--c1);
+}
+
+@media (max-width: 800px) {
+  .lista-header li {
+    padding-right: 0px;
+  }
+}
