@@ -5,152 +5,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css"> <!-- link de ligação css-->
-
-  <title>Document</title>
-
+  <link rel="stylesheet" href="style/style.css"> <!-- link de ligação css-->
+  <title>SIEF</title>
 </head>
 
 <body>
-  <!-- Criei um layout de página da Web simples. Dentro do elemento `<body>`, tenho um `<div>` com a classe `desktop-1`, que desenvolvi para conter conteúdo especificamente para a versão desktop da página da web.
-
-Dentro desta div, usei um elemento SVG com a classe `background` para criar um retângulo de cor sólida, servindo como plano de fundo para a página. Ao lado, tenho um elemento `<div>`, expressando a missão do site – encontrar espaços de lazer e saúde a partir da localização atual do usuário.
-
-Para adicionar visuais, inseri uma imagem usando o elemento `<img>` com a classe `pexels-alesia-kozik-8154199-3`. Em seguida, incluí outro elemento `<div>`, possivelmente destinado a ser um plano de fundo ou contêiner para conteúdo adicional (embora o conteúdo real não esteja presente no código fornecido).
-
-Para mais elementos de design, criei dois elementos SVG (`retângulo-6` e `retângulo-4`) formando retângulos coloridos que podem servir como elementos visuais ou botões.
-
-Também adicionei texto em um elemento `<div>` com a classe `sief`, exibindo a palavra "SIEF".
-
-Para melhorar a interação do usuário, adicionei botões usando o elemento `<button>`, cada um dentro de um link âncora (`<a>`) que direciona para locais específicos. O primeiro botão, com a classe `iniciar-sess-o`, é rotulado como "INICIAR SESSÃO", e o segundo, com a classe `espa-os-proximos`, é rotulado como "ESPAÇOS PRÓXIMOS".
-
-Para adicionar mais conteúdo visual, incorporei mais duas imagens usando elementos `<img>`.
-
-Há também um elemento `<div>` com a classe `pexels-alesia-kozik-8154255-removebg-preview-3`, embora não tenha nenhum conteúdo no código fornecido.
-
-Para contextualizar, adicionei texto em um elemento `<div>` com a classe `sistema-de-integra-o-na-educa-o-f-sica`, exibindo "Sistema de integração na educação física".
-
-Além disso, desenhei outro retângulo colorido usando um elemento SVG com a classe `retângulo-5`.
-
-Para oferecer mais interação, criei um botão dentro de um link âncora, direcionando para "saiba.html", rotulado como "SAIBA MAIS". Para este botão, usei código CSS embutido para estilizá-lo de acordo.
-
-Para exibir o logotipo do WhatsApp, usei um elemento `<img>` com a classe `whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png-1`.
-
-Por fim, incluí três elementos `<div>` com classes `line-1`, `line-2` e `line-3`, que podem ser utilizados como divisores horizontais na página. -->
-
-  <center> <!-- Centralizar toda a pagina na tela-->
-
-  <div class="desktop-1"> <!-- receber diferentes tipos de conteúdos (texto, imagens etc)-->
-    <svg class="background" width="1442" height="1038" viewBox="0 0 1442 1038" fill="none" 
-      xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 0.5H1442V1037.5H0V0.5Z" fill="#F4F4F4" />
-    </svg> <!-- é uma linguagem de marcação XML (en-US) para descrever gráficos vetoriais bidimensionais -->
-
-    <div class="n-s-temos-a-miss-o-de-encontra-espa-os-de-lazer-e-sa-de-de-acordo-com-sua-localiza-o-atual">
-      Nós temos a missão de encontrar <br> <br> espaços de lazer e saúde de <br><br>
-      acordo com sua localização atual!
+  <header>
+    <div class="cabecalho container">
+      <span class="logo"><a href="">SIEF</a></span>
+      <ul class="lista-header ul-format">
+        <li class="item-lista-header-01"><a href="">Espaços Proximos</a></li>
+        <li class="item-lista-header-02"><a href="">Iniciar Sessão</a></li>
+      </ul>
     </div>
-
-    <img class="pexels-alesia-kozik-8154199-3" src="pexels-alesia-kozik-8154199-3.png" />
-
-    <div class="background2"></div>
-
-    <svg class="rectangle-6" width="217" height="57" viewBox="0 0 217 57" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M0 28.5C0 12.7599 12.7599 0 28.5 0H188.5C204.24 0 217 12.7599 217 28.5C217 44.2401 204.24 57 188.5 57H28.5C12.7599 57 0 44.2401 0 28.5Z"
-        fill="#FFDE59" />
-    </svg>
-
-    <svg class="rectangle-4" width="217" height="57" viewBox="0 0 217 57" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M0 20C0 8.9543 8.95431 0 20 0H197C208.046 0 217 8.95431 217 20V37C217 48.0457 208.046 57 197 57H20C8.9543 57 0 48.0457 0 37V20Z"
-        fill="#F4F4F4" />
-    </svg>
-
-    <div class="sief">SIEF</div>
-
-    
-    <DIV>
-      <a href="sessao.html">
-      <button class="iniciar-sess-o">INICIAR SESSÃO</button>
-      
-      
-
-    </DIV>
-
-    
-    <div>
-      <a href="https://www.google.com.br/maps/@-12.2326768,-38.9751728,15z?entry=ttu">
-        <button class="espa-os-proximos">ESPAÇOS PRÓXIMOS</button>
-        
+  </header>
+  <main>
+    <div class="conteudo-principal container">
+      <div class="texto-principal">
+        <h1>Sistema de Integração de Educação Física.</h1>
+        <p>Nós temos a missão de encontrar espaços de lazer e saúde de acordo com a sua localização atual.</p>
+        <div>
+          <a class="botao" href="">saiba mais</a>
+        </div>
+      </div>
+      <img src="img/Planilha.png" alt="planilha">
     </div>
+  </main>
+  <footer>
 
-    <img class="pexels-alesia-kozik-8154255-removebg-preview-1"
-      src="pexels-alesia-kozik-8154255-removebg-preview-1.png" />
-
-    <img class="pexels-alesia-kozik-8154255-removebg-preview-2"
-      src="pexels-alesia-kozik-8154255-removebg-preview-2.png" />
-
-    <div class="pexels-alesia-kozik-8154255-removebg-preview-3"></div>
-
-    <div class="sistema-de-integra-o-na-educa-o-f-sica">
-      Sistema de integração<br /><br />na educação física.
-    </div>
-
-    <svg class="rectangle-5" width="394" height="95" viewBox="0 0 394 95" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M0 40C0 17.9086 17.9086 0 40 0H354C376.091 0 394 17.9086 394 40V55C394 77.0914 376.091 95 354 95H40C17.9086 95 0 77.0914 0 55V40Z"
-        fill="#FFDE59" />
-    </svg>
-
-    <DIV>
-      <a href="saiba.html">
-      <button class="botao-amarelo">SAIBA MAIS</button>
-      <link rel="stylesheet" href="saibamais.html">
-      <style>
-        .botao-amarelo {
-          background-color: #ffde59;
-          color: black;
-          border: none;
-          left: 216px;
-          top: 684px;
-          padding: 10px 20px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font: 400 65.5px/32px 'Fantasy', Fantasy;
-          font-style: italic;
-          font-size: 69px;
-          position: absolute;
-          margin: 4px 2px;
-          cursor: pointer;
-          border-radius: 5px;
-        }
-      </style>
-
-    </DIV>
-    
-
-    <div>
-    <img class="whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png-1"
-    link="https://chat.whatsapp.com/KszFfEw9dEW4YIRyZHY3g4" src="whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png-1.png" />
-
-
-    </div>
-    
-
-    <div class="line-3"></div>
-
-    <div class="line-2"></div>
-
-    <div class="line-1"></div>
-  </div>
-
-</center>
-
+  </footer>
 </body>
 
 </html>
