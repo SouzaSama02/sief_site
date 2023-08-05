@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  align-items: center;
 }
 
 .conteudo-principal a {
@@ -20,6 +21,7 @@
 .conteudo-principal img {
   height: 85%;
   object-fit: contain;
+  border-radius: 150px;
 }
 
 @media (max-width: 800px) {

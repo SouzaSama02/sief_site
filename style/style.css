@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@0,300;0,400;0,600;1,400;1,700;1,900&display=swap");
+
 @import url(conteudo/header.css);
 @import url(conteudo/conteudo-principal.css);
+@import url(conteudo/sobre-nos.css);
 
 /* Componentes */
 
 @import url(componentes/cores.css);
 @import url(componentes/recursos.css);
 @import url(componentes/config.css);
+@import url(componentes/tipografia.css);

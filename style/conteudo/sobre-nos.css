@@ -1,0 +1,30 @@
+.sobre-nos-bg {
+  background-color: var(--c1);
+}
+
+.sobre-nos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 3.15em;
+  align-items: center;
+}
+
+.sobre-nos-info {
+  padding: 20px;
+}
+
+.sobre-nos-info div a {
+  text-transform: uppercase;
+  background-color: black;
+}
+
+.sobre-nos-img {
+  order: -1;
+}
+
+.sobre-nos-img img {
+  height: 37.5em;
+  object-fit: cover;
+  border-radius: 50px;
+}
