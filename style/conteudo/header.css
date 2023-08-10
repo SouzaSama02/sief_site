@@ -22,13 +22,6 @@
 .lista-header li {
   margin-right: 20px;
   text-transform: uppercase;
-  border-radius: 100px;
-  justify-self: center;
-  align-self: center;
-}
-
-.item-lista-header-01 {
-  background-color: var(--c2);
 }
 
 @media (max-width: 800px) {

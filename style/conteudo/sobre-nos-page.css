@@ -1,0 +1,30 @@
+.um-pouco-sobre-n-s {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.informações p {
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.informações-img {
+  display: grid;
+  justify-items: center;
+}
+
+.informações-img img {
+  margin-top: 60px;
+  max-height: 500px;
+  max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .um-pouco-sobre-n-s {
+    grid-template-columns: 1fr;
+  }
+  .informações-img {
+    display: none;
+  }
+}
