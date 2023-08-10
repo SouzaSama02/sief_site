@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  align-items: center;
+  padding-top: 50px;
 }
 
 .conteudo-principal a {
@@ -11,17 +11,18 @@
 
 .texto-principal {
   padding: 20px;
-  align-self: center;
 }
 
 .texto-principal p {
+  margin-top: 50px;
   max-width: 50ch;
+  color: dimgrey;
 }
 
 .conteudo-principal img {
   height: 85%;
   object-fit: contain;
-  border-radius: 150px;
+  border-radius: 50px;
 }
 
 @media (max-width: 800px) {

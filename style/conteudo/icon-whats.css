@@ -1,0 +1,12 @@
+.icon-whatsapp {
+  position: fixed;
+  bottom: 0.2%;
+  right: 2%;
+}
+
+@media (max-widht: 500px) {
+  .icon-whatsapp {
+    bottom: 0.02%;
+    right: 0.2%;
+  }
+}

@@ -28,3 +28,19 @@
   object-fit: cover;
   border-radius: 50px;
 }
+
+@media (max-width: 800px) {
+  .sobre-nos-bg {
+    margin-top: 50px;
+  }
+  .sobre-nos {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+  .sobre-nos-img {
+    order: 1;
+  }
+  .sobre-nos-img img {
+    height: 300px;
+  }
+}
