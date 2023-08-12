@@ -1,206 +1,33 @@
-.cadastre-se,
-.cadastre-se * {
-  box-sizing: border-box;
-}
-.cadastre-se {
-  background: #ffde59;
-  width: 1443px;
-  height: 1024px;
-  position: relative;
-  overflow: hidden;
-}
-.rectangle-7 {
-  border-radius: 40px;
-  position: absolute;
-  left: 1px;
-  top: 114px;
-  overflow: visible;
-}
-.e-mail {
-  color: #000000;
-  text-align: left;
-  font: 400 25px/70px "Archivo", sans-serif;
-  position: absolute;
-  left: 527px;
-  top: 451px;
-  width: 168px;
-  height: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.frame-1 {
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
+.cadastro {
+  display: grid;
   justify-content: center;
-  width: 157px;
-  height: 45px;
-  position: absolute;
-  left: 636px;
-  top: 250px;
-}
-.cadastre-se2 {
-    color: #000000;
-    text-align: left;
-    font: 20 53.5px/32px 'Fantasy', fantasy;
-    font-weight: 200;
-    
-    position: absolute;
-    width: 306px;
-}
-.rectangle-13 {
-  background: #d9d9d9;
-  border-radius: 30px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 402px;
-  height: 51px;
-  position: absolute;
-  left: 514px;
-  top: 597px;
-  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.rectangle-8 {
-  background: #d9d9d9;
-  border-radius: 30px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 402px;
-  height: 52px;
-  position: absolute;
-  left: 514px;
-  top: 360px;
-  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.rectangle-11 {
-  background: #d9d9d9;
-  border-radius: 30px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 402px;
-  height: 51px;
-  position: absolute;
-  left: 514px;
-  top: 716px;
-  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.rectangle-14 {
-  background: #d9d9d9;
-  border-radius: 30px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 402px;
-  height: 52px;
-  position: absolute;
-  left: 514px;
-  top: 478px;
-  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.nome {
-  color: #000000;
-  text-align: left;
-  font: 400 25px/70px "Archivo", sans-serif;
-  position: absolute;
-  left: 527px;
-  top: 331px;
-  width: 168px;
-  height: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.senha {
-  color: #000000;
-  text-align: left;
-  font: 400 25px/70px "Archivo", sans-serif;
-  position: absolute;
-  left: 527px;
-  top: 567px;
-  width: 168px;
-  height: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.endere-o {
-  color: #000000;
-  text-align: left;
-  font: 400 25px/70px "Archivo", sans-serif;
-  position: absolute;
-  left: 527px;
-  top: 687px;
-  width: 168px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.rectangle-15 {
-  background: #fcd343;
-  border-radius: 60px;
-  width: 385px;
-  height: 44px;
-  position: absolute;
-  left: 523px;
-  top: 858px;
-}
-.continuar {
-    background: #fcd343;
-    color: #000000;
-  text-align: left;
-  border: none;
-  border-radius: 5px;
-  font: 400 28px/70px "Archivo", sans-serif;
-  
-  position: absolute;
-  left: 679px;
-  top: 869px;
-  width: 162px;
-  height: 23px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 
-input[type="text"] {
-    background: #d9d9d9;
-    
-    width: 399px;
-    height: 40px;
-    
-    border: none;
-    font-size: 26px;
-    padding: 24px;
-    
-    border-radius: 25px;
+.cadastro h1 {
+  justify-self: center;
 }
 
+.cadastro-boxes {
+  display: grid;
+}
 
-.botao-enviar {
-    background-color: #fcd343;
-    color: #fff;
-    border: 2px solid #fcd343;
-    position: absolute;
-  left: 571px;
-  top: 859px;
-  
-    
-    border-radius: 50px;
-    font-size: 16px;
-    padding: 10px 100px;
-    cursor: pointer;
-  }
+.cadastro-boxes label {
+  display: block;
+  margin-top: 1rem;
+}
 
+.cadastro-boxes input {
+  padding: 1rem 4rem;
+  border: 0px;
+  border-bottom: 1px solid var(--c1);
+  border-radius: 6.25rem;
+}
 
+.cadastro-boxes button {
+  margin-top: 2rem;
+}
 
- 
-
-
-
+#button-cadastro {
+  justify-self: center;
+  padding: 0.5rem 6rem;
+}
