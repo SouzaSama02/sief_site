@@ -1,0 +1,37 @@
+.comunidade {
+  display: grid;
+  border-top: 2px solid var(--c1);
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.comunidade h2 {
+  justify-self: center;
+  text-transform: uppercase;
+  padding: 2rem 0px;
+}
+
+.comunidade-indiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.comunidade-indiv a {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .comunidade h2 {
+    padding-top: 1rem;
+    padding-bottom: 0px;
+  }
+  .comunidade-indiv {
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+  }
+  .comunidade-text p {
+    margin-left: 1rem;
+  }
+}

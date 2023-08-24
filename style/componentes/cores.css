@@ -1,6 +1,8 @@
 :root {
   --c1: #ffde59;
   --c2: #f4f4f4;
+  --c3: #fcb243;
+  --c4: #4f4f4f;
 }
 
 .c1 {
@@ -9,4 +11,12 @@
 
 .c2 {
   color: #f4f4f4;
+}
+
+.c3 {
+  color: #fcb243;
+}
+
+.c4 {
+  color: #4f4f4f;
 }

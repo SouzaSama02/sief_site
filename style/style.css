@@ -1,11 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@0,300;0,400;0,600;1,400;1,700;1,900&display=swap");
 
+/* Serviços */
+
+@import url(conteudo/cadastro.css);
+@import url(conteudo/login.css);
+
+/* Paginas Inicial */
+
 @import url(conteudo/header.css);
 @import url(conteudo/conteudo-principal.css);
 @import url(conteudo/sobre-nos.css);
 @import url(conteudo/icon-whats.css);
 @import url(conteudo/sobre-nos-page.css);
-@import url(conteudo/cadastro.css);
+@import url(conteudo/bairros-locais.css);
+@import url(conteudo/profissionais-home.css);
+@import url(conteudo/comunidade.css);
+@import url(conteudo/footer.css);
+
+/* Pagina Contato */
+
+@import url(conteudo/contato-conosco.css);
+@import url(conteudo/suporte.css);
 
 /* Componentes */
 

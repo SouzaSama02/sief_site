@@ -1,0 +1,65 @@
+.contato-conosco-bg {
+  background-color: var(--c2);
+}
+
+.contato-conosco-info {
+  display: grid;
+  justify-items: center;
+}
+
+.horarios-funcionamento {
+  display: grid;
+  justify-items: center;
+  max-width: 32ch;
+}
+
+.contato-conosco-itens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 4rem 4rem;
+}
+
+.contato-conosco-itens div {
+  border-bottom: 3px solid var(--c4);
+  border-radius: 15%;
+}
+
+.links-contato-indiv {
+  display: grid;
+  justify-items: center;
+  padding: 2px 2rem;
+  justify-items: center;
+  cursor: pointer;
+}
+
+.links-contato-indiv span {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.links-contato-indiv img {
+  max-width: max-content;
+}
+
+@media (max-width: 800px) {
+  .contato-conosco-itens {
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .contato-conosco-itens {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 300px) {
+  .contato-conosco-itens {
+    padding: 1rem 1rem;
+  }
+}

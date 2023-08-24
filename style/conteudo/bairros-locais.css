@@ -1,0 +1,44 @@
+.bairros-bg {
+  border-top: 2px solid var(--c1);
+}
+
+.bairros-locais {
+  display: grid;
+  justify-items: center;
+  margin-top: 4rem;
+}
+
+.bairros-locais h2 {
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.bairros-locais a {
+  justify-items: start;
+  max-width: max-content;
+  text-transform: uppercase;
+}
+
+.bairros-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.bairros-individual span {
+  display: inline-block;
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 800px) {
+  .bairros-lista img {
+    max-height: 320px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .bairros-lista {
+    grid-template-columns: 1fr;
+  }
+}

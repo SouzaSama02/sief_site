@@ -1,0 +1,29 @@
+.rodape-bg {
+  background: var(--c3);
+}
+
+.rodape {
+  padding: 2rem;
+}
+
+.rodape h2 > span {
+  display: block;
+  color: var(--c1);
+}
+
+.rodape-redes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rodape-redes img {
+  width: 32px;
+}
+
+@media (max-width: 300px) {
+  .rodape-redes {
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+}

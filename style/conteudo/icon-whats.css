@@ -4,9 +4,15 @@
   right: 2%;
 }
 
-@media (max-widht: 500px) {
+@media (max-width: 500px) {
   .icon-whatsapp {
     bottom: 0.02%;
     right: 0.2%;
+  }
+}
+
+@media (max-width: 400px) {
+  .icon-whatsapp {
+    display: none;
   }
 }

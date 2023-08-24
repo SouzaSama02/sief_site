@@ -1,0 +1,51 @@
+.suporte-bg {
+  margin-bottom: 2rem;
+}
+
+.suporte-bg button {
+  margin-top: 2rem;
+  width: max-content;
+}
+
+.suporte {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.suporte-box-info label {
+  display: block;
+  margin: 1.5rem 0px;
+}
+
+.suporte-box-info input {
+  padding: 0.5rem 4rem;
+  border-radius: 5%;
+}
+
+#relato-div {
+  grid-column: 1/-1;
+}
+
+#relato-div input {
+  width: 80vw;
+  height: 100px;
+}
+
+@media (max-width: 800px) {
+  .suporte {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .suporte-img {
+    display: none;
+  }
+  #relato-div input {
+    width: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  .suporte {
+    padding: 0px;
+  }
+}
