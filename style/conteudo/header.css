@@ -24,8 +24,49 @@
   text-transform: uppercase;
 }
 
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
 @media (max-width: 800px) {
   .lista-header li {
     padding-right: 0px;
+  }
+  .nav-item {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .lista-header {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 32px;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+  }
+
+  .open {
+    display: block;
   }
 }

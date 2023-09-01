@@ -24,6 +24,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .prof-home-indiv {
@@ -36,7 +37,7 @@
   margin-top: 0.5rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .profissionais-home-lista {
     justify-items: center;
     grid-template-columns: 1fr 1fr;
