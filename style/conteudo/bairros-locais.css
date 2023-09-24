@@ -1,44 +1,29 @@
-.bairros-bg {
-  border-top: 2px solid var(--c1);
+.bairros {
+  padding-top: 2rem;
 }
 
-.bairros-locais {
-  display: grid;
-  justify-items: center;
-  margin-top: 4rem;
-}
-
-.bairros-locais h2 {
-  padding-bottom: 2rem;
+.bairros h2 {
+  margin: 0 auto;
   text-transform: uppercase;
+  padding: 2rem 0px;
 }
 
-.bairros-locais a {
-  justify-items: start;
-  max-width: max-content;
-  text-transform: uppercase;
+.carousel {
 }
 
-.bairros-lista {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+.carousel-cell {
+  width: 100%; /* full width */
+  margin-right: 10px;
 }
 
-.bairros-individual span {
-  display: inline-block;
-  margin-top: 0.3rem;
+.carousel-cell img {
+  width: 800px;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
-@media (max-width: 800px) {
-  .bairros-lista img {
-    max-height: 320px;
-    object-fit: cover;
-  }
-}
-
-@media (max-width: 600px) {
-  .bairros-lista {
-    grid-template-columns: 1fr;
-  }
+.spn-carousel-img {
+  position: absolute;
+  top: 90%;
+  left: 47%;
 }

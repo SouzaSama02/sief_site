@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/style.css"> <!-- link de ligação css-->
   <link rel="preconnect" href="style/style.css"> <!-- Solicitando ao navegador que priorize o download do css para a maquina do cliente-->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="style/style.css"> <!-- link de ligação css-->
   <title>SIEF</title>
   <meta name="description" content="Nossa missão é conectar nossos clientes com seu público da forma mais direta e envolvente possível através de nossas ideias."> <!--Descrição do site para o indexador do google-->
 </head>
@@ -15,7 +16,7 @@
 <body>
   <header>
     <div class="cabecalho container">
-      <span class="logo font-1-xl"><a href="">SIEF</a></span>
+      <a href="./index.html"><img class="logo" src="img/s.i.e.f.png" alt="logo"></a>
       <ul class="lista-header ul-format">
         <li class="item-lista-header-01 font-1-s"><a class="botao-secundario" target="_blank" href="https://encurtador.com.br/fsCZ1">Espaços Proximos</a></li>
         <li class="item-lista-header-01 font-1-s"><a class="botao-secundario" href="">Começar agora</a></li>
@@ -63,23 +64,22 @@
       </div>
     </div>
   </section>
-  <section class="bairros-bg">
-    <div class="bairros-locais container">
-      <h2>bairros locais</h2>
-      <div class="ul-format bairros-lista">
-        <div class="bairros-individual">
-          <img src="img/Bairros locais/jardim.png" alt=""></img>
-          <span class="font-1-m">Jardim Cruzeiro</span>
+  <section class="bairros-locais-bg">
+    <div class="bairros container">
+      <h2 class="font-1-x">Bairros Locais</h2>
+      <div class="carousel" data-flickity='{ "autoPlay": true }'>
+        <div class="carousel-cell">
+          <img src="img/Bairros locais/bairro01.png" alt="">
+          <span class="font-1-m c2 spn-carousel-img">Conceição</span>
         </div>
-        <div class="bairros-individual">
-          <img src="img/Bairros locais/conceicao.png" alt=""></img>
-          <span class="font-1-m">Conceição</span>
+        <div class="carousel-cell">
+          <img src="img/Bairros locais/bairro02.png" alt="">
+          <span class="font-1-m c2 spn-carousel-img">Sobradinho</span>
         </div>
-        <div class="bairros-individual">
-          <img src="img/Bairros locais/sobradinhi.png" alt=""></img>
-          <span class="font-1-m">Sobradinho</span>
+        <div class="carousel-cell">
+          <img src="img/Bairros locais/bairro03.png" alt="">
+          <span class="font-1-m c2 spn-carousel-img">Jomafa</span>
         </div>
-        <a href="" class="botao font-1-m-b">Mais</a>
       </div>
     </div>
   </section>
@@ -102,6 +102,19 @@
           <p class="font-1-m">Eliel Santos - Personal</p>
           <span class="font-1-xs">Motivador e especilista em fitness</span>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="podcast-bg">
+    <div class="podcast container">
+      <div class="podcast-conteudo">
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vrnQPxnmFD8?si=XP_wkgYsYEfppTLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RbXsVQr4jeTxvT35Hssq3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div>
+        <h2 class="font-1-xl">Podcast</h2>
+        <p class="font-1-m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corporis sint eveniet quod impedit! Quos, dignissimos laborum nemo optio cupiditate, nobis commodi itaque quisquam, dolore repudiandae aspernatur possimus vitae labore!</p>
       </div>
     </div>
   </section>
@@ -147,7 +160,9 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/swiper.js"></script>
 </body>
 
 </html>

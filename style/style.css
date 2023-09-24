@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@0,300;0,400;0,600;1,400;1,700;1,900&display=swap");
+@import "swiper/css";
 
 /* Serviços */
 
@@ -14,6 +15,7 @@
 @import url(conteudo/sobre-nos-page.css);
 @import url(conteudo/bairros-locais.css);
 @import url(conteudo/profissionais-home.css);
+@import url(conteudo/podcast.css);
 @import url(conteudo/comunidade.css);
 @import url(conteudo/footer.css);
 
