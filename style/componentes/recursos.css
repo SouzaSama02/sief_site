@@ -29,3 +29,7 @@
   background-color: var(--c2);
   border-radius: 100px;
 }
+
+.d-none {
+  display: none;
+}

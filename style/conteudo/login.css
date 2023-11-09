@@ -32,6 +32,7 @@
 }
 
 .login-boxes button {
+  cursor: pointer;
   justify-self: center;
   display: block;
   margin-top: 1rem;

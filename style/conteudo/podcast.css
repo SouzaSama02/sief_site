@@ -7,11 +7,17 @@
   padding: 30px 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .podcast {
     grid-template-columns: 1fr;
   }
   .podcast-conteudo {
+    justify-self: center;
     order: 2;
   }
+}
+
+@media (max-width: 630px) {
+  .frame-podcast {
+    display: none;
 }
